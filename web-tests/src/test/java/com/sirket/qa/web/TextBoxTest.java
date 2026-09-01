@@ -1,19 +1,27 @@
 package com.sirket.qa.web;
 
-import com.microsoft.playwright.*;
+import com.microsoft.playwright.Browser;
+import com.microsoft.playwright.BrowserContext;
+import com.microsoft.playwright.Page;
+import com.microsoft.playwright.Playwright;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInfo;
 
 import java.io.ByteArrayInputStream;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Epic("Web")
-@Feature("DemoQA ana sayfa")
-class HomePageTest {
+@Feature("DemoQA Text Box")
+class TextBoxTest {
 
     private static final String BASE_URL =
             System.getProperty("base.url", "https://demoqa.com");
@@ -51,19 +59,17 @@ class HomePageTest {
     }
 
     @Test
-    @Description("DemoQA ana sayfasi acilmali")
-    void anaSayfaAcilir() {
-        page.navigate(BASE_URL);
-        assertTrue(page.getByText("Elements", new Page.GetByTextOptions().setExact(true)).isVisible());
-    }
+    @Description("Kullanici Text Box formunu doldurup sonucu gorebilmeli")
+    void kullaniciBilgileriniGonderebilir() {
+        page.navigate(BASE_URL + "/text-box");
 
-    @Test
-    @Description("Elements modulu acilmali")
-    void elementsModuluAcilir() {
-        page.navigate(BASE_URL);
-        page.getByText("Elements", new Page.GetByTextOptions().setExact(true)).click();
+        page.locator("#userName").fill("Test Kullanici");
+        page.locator("#userEmail").fill("test.kullanici@example.com");
+        page.locator("#currentAddress").fill("Istanbul");
+        page.locator("#permanentAddress").fill("Ankara");
+        page.locator("#submit").click();
 
-        assertTrue(page.url().contains("/elements"));
-        assertTrue(page.getByText("Text Box", new Page.GetByTextOptions().setExact(true)).isVisible());
+        assertTrue(page.locator("#output #name").textContent().contains("Test Kullanici"));
+        assertTrue(page.locator("#output #email").textContent().contains("test.kullanici@example.com"));
     }
 }
