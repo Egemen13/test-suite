@@ -44,16 +44,15 @@ jobs:
           path: allure-results
           merge-multiple: true
 
-      - name: Allure raporu uret
+      - name: Onceki koşumun gecmisini indir
+        continue-on-error: true
         run: |
-          npm install -g allure-commandline
-          allure generate allure-results --clean -o allure-report
-
-      - uses: actions/configure-pages@v5
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: allure-report
-
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          mkdir -p allure-results/history
+          curl -sf -o history.zip -L \
+            "https://egemen13.github.io/test-suite/export/history.zip" || true
+          curl -sf -o allure-results/history/history.json \
+            "https://egemen13.github.io/test-suite/history/history.json" || true
+          curl -sf -o allure-results/history/history-trend.json \
+            "https://egemen13.github.io/test-suite/history/history-trend.json" || true
+          curl -sf -o allure-results/history/duration-trend.json \
+            "https://egemen13.github.io/test-suite/histo
