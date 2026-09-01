@@ -32,7 +32,7 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Playwright tarayicilarini kur
-        run: mvn -B compile exec:java -pl web-tests -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps chromium"
+        run: mvn -B test-compile exec:java -pl web-tests -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps chromium" -D exec.classpathScope=test
       - name: Web testlerini kos
         run: mvn -B clean test -pl web-tests
       - uses: actions/upload-artifact@v4
