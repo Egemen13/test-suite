@@ -12,6 +12,7 @@
     <modules>
         <module>api-tests</module>
         <module>web-tests</module>
+        <module>gauge-tests</module>
     </modules>
 
     <properties>

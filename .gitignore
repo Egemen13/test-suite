@@ -43,3 +43,7 @@ allure-results/
 allure-report/
 .allure/
 .idea/
+
+gauge-tests/reports/
+gauge-tests/logs/
+.gauge/
