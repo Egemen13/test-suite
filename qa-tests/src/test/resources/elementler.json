@@ -1,0 +1,27 @@
+{
+  "textBox": {
+    "adSoyadInput": "css=#userName",
+    "epostaInput": "css=#userEmail",
+    "mevcutAdresInput": "css=#currentAddress",
+    "kaliciAdresInput": "css=#permanentAddress",
+    "gonderButon": "css=#submit",
+    "sonucAlani": "css=#output",
+    "sonucAd": "css=#name",
+    "sonucEposta": "css=#email"
+  },
+  "webTables": {
+    "yeniKayitButon": "css=#addNewRecordButton",
+    "adInput": "css=#firstName",
+    "soyadInput": "css=#lastName",
+    "kayitEpostaInput": "css=#userEmail",
+    "yasInput": "css=#age",
+    "maasInput": "css=#salary",
+    "departmanInput": "css=#department",
+    "kaydetButon": "css=#submit",
+    "aramaKutusu": "css=#searchBox",
+    "veriYokMesaji": "css=.rt-noData",
+    "kayitSatiri": "xpath=//div[@class='rt-tr-group'][.//div[text()='%s']]",
+    "satirDuzenleButon": "xpath=//div[@class='rt-tr-group'][.//div[text()='%s']]//span[starts-with(@id,'edit-record')]",
+    "satirSilButon": "xpath=//div[@class='rt-tr-group'][.//div[text()='%s']]//span[starts-with(@id,'delete-record')]"
+  }
+}
