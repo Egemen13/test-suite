@@ -1,11 +1,12 @@
-# Ana sayfa
+# DemoQA - Ana Sayfa
 
-Playwright sitesinin temel davranislari.
+DemoQA ana sayfasinin acilis ve navigasyon davranislari.
 
 ## Ana sayfa acilir
 * Ana sayfaya git
-* Baslik "Playwright" icermeli
+* Sayfada "Elements" metni gorunmeli
 
-## Dokumantasyon acilir
-* "/docs/intro" adresine git
-* URL "kesinlikle-yok" icermeli
+## Elements modulu acilir
+* DemoQA Elements sayfasina git
+* URL "/elements" icermeli
+* Sayfada "Text Box" metni gorunmeli

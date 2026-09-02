@@ -46,4 +46,6 @@ allure-report/
 
 gauge-tests/reports/
 gauge-tests/logs/
+gauge-api-tests/reports/
+gauge-api-tests/logs/
 .gauge/

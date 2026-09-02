@@ -25,8 +25,8 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           cache: maven
-      - name: API testlerini kos
-        run: mvn -B clean test -pl api-tests
+      - name: API testlerini kos (Gauge)
+        run: mvn -B clean test -pl gauge-api-tests
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -44,9 +44,9 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Playwright tarayicilarini kur
-        run: mvn -B test-compile exec:java -pl web-tests -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps chromium" -D exec.classpathScope=test
-      - name: Web testlerini kos
-        run: mvn -B clean test -pl web-tests
+        run: mvn -B test-compile exec:java -pl gauge-tests -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps chromium" -D exec.classpathScope=test
+      - name: Web testlerini kos (Gauge)
+        run: mvn -B clean test -pl gauge-tests
       - uses: actions/upload-artifact@v4
         if: always()
         with:
