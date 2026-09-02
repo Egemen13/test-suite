@@ -3589,3 +3589,316 @@ Total time taken: 5.353s
 02-09-2026 09:52:53.476 [Gauge] [INFO] Scenarios:	2 executed	2 passed	0 failed	0 skipped
 02-09-2026 09:52:53.476 [Gauge] [INFO] 
 Total time taken: 10.697s
+02-09-2026 09:56:24.273 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/n100546/IdeaProjects/test-suite/qa-tests/.gauge/screenshots
+02-09-2026 09:56:24.273 [Gauge] [DEBUG] Plugin java is already installed.
+02-09-2026 09:56:24.274 [Gauge] [DEBUG] Plugin html-report is already installed.
+02-09-2026 09:56:24.274 [Gauge] [DEBUG] Parsing started.
+02-09-2026 09:56:24.274 [Gauge] [DEBUG] Started concepts parsing.
+02-09-2026 09:56:24.276 [Gauge] [DEBUG] 3 concepts parsing completed.
+02-09-2026 09:56:24.276 [Gauge] [DEBUG] Started specifications parsing.
+02-09-2026 09:56:24.277 [Gauge] [DEBUG] 1 specifications parsing completed.
+02-09-2026 09:56:24.277 [Gauge] [DEBUG] Parsing completed.
+02-09-2026 09:56:24.293 [java] [DEBUG] ***** Printing Properties/Env Values *****
+02-09-2026 09:56:24.293 [java] [DEBUG] PATH: /Users/n100546/apache-maven-3.9.9/bin:/Users/n100546/.npm-global/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/n100546/.gauge/plugins/screenshot/1.0.2
+02-09-2026 09:56:24.293 [java] [DEBUG] JAVA_HOME: 
+02-09-2026 09:56:24.293 [java] [DEBUG] gauge_project_root: 
+02-09-2026 09:56:24.293 [java] [DEBUG] gauge_parallel_streams_count: 
+02-09-2026 09:56:24.293 [java] [DEBUG] gauge_reports_dir: reports
+02-09-2026 09:56:24.293 [java] [DEBUG] overwrite_reports: true
+02-09-2026 09:56:24.293 [java] [DEBUG] logs_directory: logs
+02-09-2026 09:56:24.293 [java] [DEBUG] enable_multithreading: 
+02-09-2026 09:56:24.293 [java] [DEBUG] gauge_specs_dir: specs
+02-09-2026 09:56:24.293 [java] [DEBUG] csv_delimiter: ,
+02-09-2026 09:56:24.293 [java] [DEBUG] gauge_java_home: 
+02-09-2026 09:56:24.293 [java] [DEBUG] gauge_custom_build_path: target/test-classes
+02-09-2026 09:56:24.293 [java] [DEBUG] gauge_additional_libs: 
+02-09-2026 09:56:24.293 [java] [DEBUG] gauge_jvm_args: -Dallure.results.directory=../allure-results
+02-09-2026 09:56:24.293 [java] [DEBUG] gauge_custom_compile_dir: 
+02-09-2026 09:56:24.293 [java] [DEBUG] gauge_clear_state_level: 
+02-09-2026 09:56:24.293 [java] [DEBUG] ***** END *****
+02-09-2026 09:56:24.377 [java] [ERROR] WARNING: A restricted method in
+02-09-2026 09:56:24.377 [java] [ERROR] java.lang.System has been called
+02-09-2026 09:56:24.377 [java] [ERROR] WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/Users/n100546/apache-maven-3.9.9/lib/jansi-2.4.1.jar)
+02-09-2026 09:56:24.377 [java] [ERROR] WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+02-09-2026 09:56:24.377 [java] [ERROR] WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+02-09-2026 09:56:24.681 [java] [ERROR] WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+02-09-2026 09:56:24.681 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/Users/n100546/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+02-09-2026 09:56:24.681 [java] [ERROR] WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+02-09-2026 09:56:24.681 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+02-09-2026 09:56:25.011 [Gauge] [DEBUG] Checking updates...
+02-09-2026 09:56:25.011 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+02-09-2026 09:56:25.218 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+02-09-2026 09:56:25.268 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+02-09-2026 09:56:25.725 [java] [ERROR] Installed version of gauge-java (1.0.3) does not match with dependency gauge-java (1.0.1) specified in pom.xml file
+02-09-2026 09:56:25.725 [java] [DEBUG] classpath set to /Users/n100546/IdeaProjects/test-suite/qa-tests/target/test-classes:/Users/n100546/IdeaProjects/test-suite/qa-tests/target/classes:/Users/n100546/.m2/repository/com/thoughtworks/gauge/gauge-java/1.0.1/gauge-java-1.0.1.jar:/Users/n100546/.m2/repository/org/assertj/assertj-core/3.27.6/assertj-core-3.27.6.jar:/Users/n100546/.m2/repository/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar:/Users/n100546/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/n100546/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/n100546/.m2/repository/com/github/javaparser/javaparser-core/3.27.1/javaparser-core-3.27.1.jar:/Users/n100546/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar:/Users/n100546/.m2/repository/com/google/protobuf/protobuf-java/4.33.0/protobuf-java-4.33.0.jar:/Users/n100546/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/n100546/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/n100546/.m2/repository/io/grpc/grpc-api/1.76.0/grpc-api-1.76.0.jar:/Users/n100546/.m2/repository/io/grpc/grpc-netty-shaded/1.76.0/grpc-netty-shaded-1.76.0.jar:/Users/n100546/.m2/repository/io/grpc/grpc-util/1.76.0/grpc-util-1.76.0.jar:/Users/n100546/.m2/repository/io/grpc/grpc-core/1.76.0/grpc-core-1.76.0.jar:/Users/n100546/.m2/repository/io/grpc/grpc-context/1.76.0/grpc-context-1.76.0.jar:/Users/n100546/.m2/repository/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0.jar:/Users/n100546/.m2/repository/io/grpc/grpc-protobuf/1.76.0/grpc-protobuf-1.76.0.jar:/Users/n100546/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.59.2/proto-google-common-protos-2.59.2.jar:/Users/n100546/.m2/repository/io/grpc/grpc-protobuf-lite/1.76.0/grpc-protobuf-lite-1.76.0.jar:/Users/n100546/.m2/repository/io/grpc/grpc-stub/1.76.0/grpc-stub-1.76.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-java/4.27.0/selenium-java-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-api/4.27.0/selenium-api-4.27.0.jar:/Users/n100546/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.27.0/selenium-chrome-driver-4.27.0.jar:/Users/n100546/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.27.0/selenium-chromium-driver-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-json/4.27.0/selenium-json-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.27.0/selenium-manager-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.27.0/selenium-devtools-v129-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.27.0/selenium-devtools-v130-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.27.0/selenium-devtools-v131-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.27.0/selenium-devtools-v85-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.27.0/selenium-edge-driver-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.27.0/selenium-firefox-driver-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-http/4.27.0/selenium-http-4.27.0.jar:/Users/n100546/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.27.0/selenium-ie-driver-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.27.0/selenium-remote-driver-4.27.0.jar:/Users/n100546/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-api/1.44.1/opentelemetry-api-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-context/1.44.1/opentelemetry-context-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.44.1/opentelemetry-exporter-logging-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.44.1/opentelemetry-sdk-common-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.44.1/opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.44.1/opentelemetry-sdk-extension-autoconfigure-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.44.1-alpha/opentelemetry-api-incubator-1.44.1-alpha.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.44.1/opentelemetry-sdk-trace-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.44.1/opentelemetry-sdk-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.44.1/opentelemetry-sdk-metrics-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.44.1/opentelemetry-sdk-logs-1.44.1.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-os/4.27.0/selenium-os-4.27.0.jar:/Users/n100546/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.27.0/selenium-safari-driver-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-support/4.27.0/selenium-support-4.27.0.jar:/Users/n100546/.m2/repository/io/qameta/allure/allure-java-commons/2.29.0/allure-java-commons-2.29.0.jar:/Users/n100546/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/n100546/.m2/repository/io/qameta/allure/allure-model/2.29.0/allure-model-2.29.0.jar:/Users/n100546/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/n100546/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/n100546/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/n100546/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/n100546/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/n100546/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/n100546/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/n100546/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/n100546/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/n100546/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/n100546/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/n100546/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/n100546/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/n100546/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/n100546/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar
+02-09-2026 09:56:25.725 [java] [DEBUG] found java executable in java
+02-09-2026 09:56:25.725 [java] [DEBUG] running - java [-Dallure.results.directory=../allure-results -Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+02-09-2026 09:56:25.725 [java] [DEBUG] stdout/stderr is logged to logs/66241-java.out
+02-09-2026 09:56:25.809 [java] [DEBUG] multithreading is set to false
+02-09-2026 09:56:25.953 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+02-09-2026 09:56:25.974 [java] [ERROR] SLF4J(W): No SLF4J providers were found.
+02-09-2026 09:56:25.974 [java] [ERROR] SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+02-09-2026 09:56:25.974 [java] [ERROR] SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+02-09-2026 09:56:25.991 [java] [ERROR] WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+02-09-2026 09:56:25.991 [java] [ERROR] WARNING: sun.misc.Unsafe::allocateMemory has been called by io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$2 (file:/Users/n100546/.m2/repository/io/grpc/grpc-netty-shaded/1.76.0/grpc-netty-shaded-1.76.0.jar)
+02-09-2026 09:56:25.991 [java] [ERROR] WARNING: Please consider reporting this to the maintainers of class io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$2
+02-09-2026 09:56:25.991 [java] [ERROR] WARNING: sun.misc.Unsafe::allocateMemory will be removed in a future release
+02-09-2026 09:56:26.188 [java] [DEBUG] gauge-java took 378milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+02-09-2026 09:56:26.188 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 378
+02-09-2026 09:56:26.188 [java] [DEBUG] starting gRPC server...
+02-09-2026 09:56:26.242 [java] [DEBUG] started gRPC server on port 61609
+02-09-2026 09:56:26.242 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61609
+02-09-2026 09:56:26.242 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61609
+02-09-2026 09:56:26.242 [Gauge] [DEBUG] Validation started.
+02-09-2026 09:56:26.943 [java] [DEBUG] Scanning packages for steps
+02-09-2026 09:56:26.950 [java] [DEBUG] Comparing 'com.sirket.qa.web.WebSteps.elementeYaz' and 'com.sirket.qa.web.WebSteps.elementeYaz'
+02-09-2026 09:56:26.950 [java] [DEBUG] Found {} textini {} elemente yaz in current project scope.
+02-09-2026 09:56:26.950 [java] [DEBUG] Comparing 'com.sirket.qa.web.WebSteps.elementeTikla' and 'com.sirket.qa.web.WebSteps.elementeTikla'
+02-09-2026 09:56:26.950 [java] [DEBUG] Found {} elementine tikla in current project scope.
+02-09-2026 09:56:26.950 [java] [DEBUG] Comparing 'com.sirket.qa.web.WebSteps.elementGorunmemeli' and 'com.sirket.qa.web.WebSteps.elementGorunmemeli'
+02-09-2026 09:56:26.950 [java] [DEBUG] Found {} elementi gorunmemeli in current project scope.
+02-09-2026 09:56:26.950 [java] [DEBUG] Comparing 'com.sirket.qa.web.WebSteps.textGorunuyorMu' and 'com.sirket.qa.web.WebSteps.textGorunuyorMu'
+02-09-2026 09:56:26.950 [java] [DEBUG] Found {} texti {} elementinde gorunuyor mu kontrol et in current project scope.
+02-09-2026 09:56:26.950 [java] [DEBUG] Comparing 'com.sirket.qa.web.WebSteps.adreseGit' and 'com.sirket.qa.web.WebSteps.adreseGit'
+02-09-2026 09:56:26.950 [java] [DEBUG] Found {} adresine git in current project scope.
+02-09-2026 09:56:26.950 [java] [DEBUG] Comparing 'com.sirket.qa.web.WebSteps.elementiKontrolEt' and 'com.sirket.qa.web.WebSteps.elementiKontrolEt'
+02-09-2026 09:56:26.950 [java] [DEBUG] Found {} elementini kontrol et in current project scope.
+02-09-2026 09:56:26.950 [java] [DEBUG] Scanning packages for hooks
+02-09-2026 09:56:26.955 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+02-09-2026 09:56:26.955 [java] [DEBUG] 	{} elementini kontrol et : public void elementiKontrolEt(String ad)
+02-09-2026 09:56:26.955 [java] [DEBUG] 	{} adresine git : public void adreseGit(String yol)
+02-09-2026 09:56:26.955 [java] [DEBUG] 	{} elementine tikla : public void elementeTikla(String ad)
+02-09-2026 09:56:26.955 [java] [DEBUG] 	{} elementi gorunmemeli : public void elementGorunmemeli(String ad)
+02-09-2026 09:56:26.955 [java] [DEBUG] 	{} textini {} elemente yaz : public void elementeYaz(String metin, String ad)
+02-09-2026 09:56:26.955 [java] [DEBUG] 	{} texti {} elementinde gorunuyor mu kontrol et : public void textGorunuyorMu(String metin, String ad)
+02-09-2026 09:56:27.298 [Gauge] [DEBUG] Validation completed.
+02-09-2026 09:56:27.298 [Gauge] [DEBUG] Run started
+02-09-2026 09:56:27.298 [Gauge] [DEBUG] Starting Html Report plugin
+02-09-2026 09:56:27.339 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+02-09-2026 09:56:27.339 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61612
+02-09-2026 09:56:27.339 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61612
+02-09-2026 09:56:27.339 [Gauge] [DEBUG] Initialising suite data store.
+02-09-2026 09:56:27.359 [Gauge] [INFO] # DemoQA Text Box
+02-09-2026 09:56:27.364 [Gauge] [INFO] ## TST_TEXTBOX_0001 Gecerli bilgilerle form gonderilir
+02-09-2026 09:56:29.814 [java] [ERROR] Eyl 02, 2026 9:56:29 ÖÖ org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+02-09-2026 09:56:29.814 [java] [ERROR] WARNING: Unable to find CDP implementation matching 152
+02-09-2026 09:56:29.814 [java] [ERROR] Eyl 02, 2026 9:56:29 ÖÖ org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+02-09-2026 09:56:29.814 [java] [ERROR] WARNING: Unable to find version of CDP to use for 152.0.7977.65. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+02-09-2026 09:56:29.909 [Gauge] [DEBUG] * Text Box sayfasi acilir
+02-09-2026 09:56:29.912 [Gauge] [DEBUG] * "/text-box" adresine git
+02-09-2026 09:56:29.922 [java] [DEBUG] Executing '{} adresine git' using 'class com.sirket.qa.web.WebSteps.adreseGit
+02-09-2026 09:56:30.728 [Gauge] [DEBUG] * "adSoyadInput" elementini kontrol et
+
+02-09-2026 09:56:30.732 [java] [DEBUG] Executing '{} elementini kontrol et' using 'class com.sirket.qa.web.WebSteps.elementiKontrolEt
+02-09-2026 09:56:30.794 [Gauge] [DEBUG] * Formu "Test Kullanici" ve "test.kullanici@ornek.com" ile doldur
+02-09-2026 09:56:30.794 [Gauge] [DEBUG] * "Test Kullanici" textini "adSoyadInput" elemente yaz
+02-09-2026 09:56:30.798 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:56:30.947 [Gauge] [DEBUG] * "test.kullanici@ornek.com" textini "epostaInput" elemente yaz
+02-09-2026 09:56:30.949 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:56:31.012 [Gauge] [DEBUG] * "Istanbul Mah. Ornek Sok. No 1" textini "mevcutAdresInput" elemente yaz
+02-09-2026 09:56:31.014 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:56:31.081 [Gauge] [DEBUG] * "Ankara Mah. Ornek Cad. No 2" textini "kaliciAdresInput" elemente yaz
+
+02-09-2026 09:56:31.082 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:56:31.125 [Gauge] [DEBUG] * Formu gonder
+02-09-2026 09:56:31.125 [Gauge] [DEBUG] * "gonderButon" elementine tikla
+02-09-2026 09:56:31.127 [java] [DEBUG] Executing '{} elementine tikla' using 'class com.sirket.qa.web.WebSteps.elementeTikla
+02-09-2026 09:56:31.170 [Gauge] [DEBUG] * "sonucAlani" elementini kontrol et
+02-09-2026 09:56:31.172 [java] [DEBUG] Executing '{} elementini kontrol et' using 'class com.sirket.qa.web.WebSteps.elementiKontrolEt
+02-09-2026 09:56:31.234 [Gauge] [DEBUG] * "Test Kullanici" texti "sonucAd" elementinde gorunuyor mu kontrol et
+
+02-09-2026 09:56:31.236 [java] [DEBUG] Executing '{} texti {} elementinde gorunuyor mu kontrol et' using 'class com.sirket.qa.web.WebSteps.textGorunuyorMu
+02-09-2026 09:56:31.561 [Gauge] [INFO] ## TST_TEXTBOX_0002 Gecersiz e-posta ile form gonderilmez
+02-09-2026 09:56:32.197 [java] [ERROR] Eyl 02, 2026 9:56:32 ÖÖ org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+02-09-2026 09:56:32.198 [java] [ERROR] WARNING: Unable to find CDP implementation matching 152
+02-09-2026 09:56:32.198 [java] [ERROR] Eyl 02, 2026 9:56:32 ÖÖ org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+02-09-2026 09:56:32.198 [java] [ERROR] WARNING: Unable to find version of CDP to use for 152.0.7977.65. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+02-09-2026 09:56:32.204 [Gauge] [DEBUG] * Text Box sayfasi acilir
+02-09-2026 09:56:32.206 [Gauge] [DEBUG] * "/text-box" adresine git
+02-09-2026 09:56:32.222 [java] [DEBUG] Executing '{} adresine git' using 'class com.sirket.qa.web.WebSteps.adreseGit
+02-09-2026 09:56:32.920 [Gauge] [DEBUG] * "adSoyadInput" elementini kontrol et
+
+02-09-2026 09:56:32.923 [java] [DEBUG] Executing '{} elementini kontrol et' using 'class com.sirket.qa.web.WebSteps.elementiKontrolEt
+02-09-2026 09:56:32.941 [Gauge] [DEBUG] * Formu "Test Kullanici" ve "gecersiz-eposta" ile doldur
+02-09-2026 09:56:32.942 [Gauge] [DEBUG] * "Test Kullanici" textini "adSoyadInput" elemente yaz
+02-09-2026 09:56:32.943 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:56:33.042 [Gauge] [DEBUG] * "gecersiz-eposta" textini "epostaInput" elemente yaz
+02-09-2026 09:56:33.044 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:56:33.082 [Gauge] [DEBUG] * "Istanbul Mah. Ornek Sok. No 1" textini "mevcutAdresInput" elemente yaz
+02-09-2026 09:56:33.085 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:56:33.125 [Gauge] [DEBUG] * "Ankara Mah. Ornek Cad. No 2" textini "kaliciAdresInput" elemente yaz
+
+02-09-2026 09:56:33.127 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:56:33.176 [Gauge] [DEBUG] * Formu gonder
+02-09-2026 09:56:33.176 [Gauge] [DEBUG] * "gonderButon" elementine tikla
+02-09-2026 09:56:33.177 [java] [DEBUG] Executing '{} elementine tikla' using 'class com.sirket.qa.web.WebSteps.elementeTikla
+02-09-2026 09:56:33.241 [Gauge] [DEBUG] * "sonucAlani" elementi gorunmemeli
+02-09-2026 09:56:33.243 [java] [DEBUG] Executing '{} elementi gorunmemeli' using 'class com.sirket.qa.web.WebSteps.elementGorunmemeli
+02-09-2026 09:56:33.424 [html-report] [DEBUG] Transformed SuiteResult to report structure
+02-09-2026 09:56:33.435 [html-report] [INFO] Successfully generated html-report to => /Users/n100546/IdeaProjects/test-suite/qa-tests/reports/html-report/index.html
+02-09-2026 09:56:33.435 [html-report] [DEBUG] Done generating HTML report using theme from /Users/n100546/.gauge/plugins/html-report/4.4.6/themes/default
+02-09-2026 09:56:33.435 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+02-09-2026 09:56:33.538 [Gauge] [DEBUG] Runner with PID:66263 has exited
+02-09-2026 09:56:33.539 [java] [DEBUG] Killing Java runner...
+02-09-2026 09:56:33.540 [java] [DEBUG] Stopping execution pool...
+02-09-2026 09:56:33.540 [java] [DEBUG] Shutting down grpc server...
+02-09-2026 09:56:33.544 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+02-09-2026 09:56:33.544 [Gauge] [INFO] Scenarios:	2 executed	2 passed	0 failed	0 skipped
+02-09-2026 09:56:33.544 [Gauge] [INFO] 
+Total time taken: 6.125s
+02-09-2026 09:57:39.286 [Gauge] [DEBUG] Created gauge_screenshots_dir at /Users/n100546/IdeaProjects/test-suite/qa-tests/.gauge/screenshots
+02-09-2026 09:57:39.287 [Gauge] [DEBUG] Plugin java is already installed.
+02-09-2026 09:57:39.287 [Gauge] [DEBUG] Plugin html-report is already installed.
+02-09-2026 09:57:39.289 [Gauge] [DEBUG] Parsing started.
+02-09-2026 09:57:39.289 [Gauge] [DEBUG] Started concepts parsing.
+02-09-2026 09:57:39.292 [Gauge] [DEBUG] 3 concepts parsing completed.
+02-09-2026 09:57:39.292 [Gauge] [DEBUG] Started specifications parsing.
+02-09-2026 09:57:39.294 [Gauge] [DEBUG] 1 specifications parsing completed.
+02-09-2026 09:57:39.294 [Gauge] [DEBUG] Parsing completed.
+02-09-2026 09:57:39.309 [java] [DEBUG] ***** Printing Properties/Env Values *****
+02-09-2026 09:57:39.309 [java] [DEBUG] PATH: /Users/n100546/apache-maven-3.9.9/bin:/Users/n100546/.npm-global/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/n100546/.gauge/plugins/screenshot/1.0.2
+02-09-2026 09:57:39.309 [java] [DEBUG] JAVA_HOME: 
+02-09-2026 09:57:39.309 [java] [DEBUG] gauge_project_root: 
+02-09-2026 09:57:39.309 [java] [DEBUG] gauge_parallel_streams_count: 
+02-09-2026 09:57:39.309 [java] [DEBUG] gauge_reports_dir: reports
+02-09-2026 09:57:39.309 [java] [DEBUG] overwrite_reports: true
+02-09-2026 09:57:39.309 [java] [DEBUG] logs_directory: logs
+02-09-2026 09:57:39.309 [java] [DEBUG] enable_multithreading: 
+02-09-2026 09:57:39.309 [java] [DEBUG] gauge_specs_dir: specs
+02-09-2026 09:57:39.309 [java] [DEBUG] csv_delimiter: ,
+02-09-2026 09:57:39.309 [java] [DEBUG] gauge_java_home: 
+02-09-2026 09:57:39.309 [java] [DEBUG] gauge_custom_build_path: target/test-classes
+02-09-2026 09:57:39.309 [java] [DEBUG] gauge_additional_libs: 
+02-09-2026 09:57:39.309 [java] [DEBUG] gauge_jvm_args: -Dallure.results.directory=../allure-results
+02-09-2026 09:57:39.309 [java] [DEBUG] gauge_custom_compile_dir: 
+02-09-2026 09:57:39.309 [java] [DEBUG] gauge_clear_state_level: 
+02-09-2026 09:57:39.309 [java] [DEBUG] ***** END *****
+02-09-2026 09:57:39.394 [java] [ERROR] WARNING: A restricted method in java.lang.System has been called
+02-09-2026 09:57:39.395 [java] [ERROR] WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/Users/n100546/apache-maven-3.9.9/lib/jansi-2.4.1.jar)
+02-09-2026 09:57:39.395 [java] [ERROR] WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+02-09-2026 09:57:39.395 [java] [ERROR] WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+02-09-2026 09:57:39.691 [java] [ERROR] WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+02-09-2026 09:57:39.691 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/Users/n100546/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+02-09-2026 09:57:39.691 [java] [ERROR] WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+02-09-2026 09:57:39.691 [java] [ERROR] WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+02-09-2026 09:57:40.049 [Gauge] [DEBUG] Checking updates...
+02-09-2026 09:57:40.049 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+02-09-2026 09:57:40.213 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+02-09-2026 09:57:40.267 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=darwin&a=arm64
+02-09-2026 09:57:40.727 [java] [ERROR] Installed version of gauge-java (1.0.3) does not match with dependency gauge-java (1.0.1) specified in pom.xml file
+02-09-2026 09:57:40.727 [java] [DEBUG] classpath set to /Users/n100546/IdeaProjects/test-suite/qa-tests/target/test-classes:/Users/n100546/IdeaProjects/test-suite/qa-tests/target/classes:/Users/n100546/.m2/repository/com/thoughtworks/gauge/gauge-java/1.0.1/gauge-java-1.0.1.jar:/Users/n100546/.m2/repository/org/assertj/assertj-core/3.27.6/assertj-core-3.27.6.jar:/Users/n100546/.m2/repository/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar:/Users/n100546/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/Users/n100546/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/Users/n100546/.m2/repository/com/github/javaparser/javaparser-core/3.27.1/javaparser-core-3.27.1.jar:/Users/n100546/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar:/Users/n100546/.m2/repository/com/google/protobuf/protobuf-java/4.33.0/protobuf-java-4.33.0.jar:/Users/n100546/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/n100546/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/n100546/.m2/repository/io/grpc/grpc-api/1.76.0/grpc-api-1.76.0.jar:/Users/n100546/.m2/repository/io/grpc/grpc-netty-shaded/1.76.0/grpc-netty-shaded-1.76.0.jar:/Users/n100546/.m2/repository/io/grpc/grpc-util/1.76.0/grpc-util-1.76.0.jar:/Users/n100546/.m2/repository/io/grpc/grpc-core/1.76.0/grpc-core-1.76.0.jar:/Users/n100546/.m2/repository/io/grpc/grpc-context/1.76.0/grpc-context-1.76.0.jar:/Users/n100546/.m2/repository/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0.jar:/Users/n100546/.m2/repository/io/grpc/grpc-protobuf/1.76.0/grpc-protobuf-1.76.0.jar:/Users/n100546/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.59.2/proto-google-common-protos-2.59.2.jar:/Users/n100546/.m2/repository/io/grpc/grpc-protobuf-lite/1.76.0/grpc-protobuf-lite-1.76.0.jar:/Users/n100546/.m2/repository/io/grpc/grpc-stub/1.76.0/grpc-stub-1.76.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-java/4.27.0/selenium-java-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-api/4.27.0/selenium-api-4.27.0.jar:/Users/n100546/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.27.0/selenium-chrome-driver-4.27.0.jar:/Users/n100546/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.27.0/selenium-chromium-driver-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-json/4.27.0/selenium-json-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.27.0/selenium-manager-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.27.0/selenium-devtools-v129-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.27.0/selenium-devtools-v130-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.27.0/selenium-devtools-v131-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.27.0/selenium-devtools-v85-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.27.0/selenium-edge-driver-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.27.0/selenium-firefox-driver-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-http/4.27.0/selenium-http-4.27.0.jar:/Users/n100546/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.27.0/selenium-ie-driver-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.27.0/selenium-remote-driver-4.27.0.jar:/Users/n100546/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-api/1.44.1/opentelemetry-api-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-context/1.44.1/opentelemetry-context-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.44.1/opentelemetry-exporter-logging-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.44.1/opentelemetry-sdk-common-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.44.1/opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.44.1/opentelemetry-sdk-extension-autoconfigure-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.44.1-alpha/opentelemetry-api-incubator-1.44.1-alpha.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.44.1/opentelemetry-sdk-trace-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.44.1/opentelemetry-sdk-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.44.1/opentelemetry-sdk-metrics-1.44.1.jar:/Users/n100546/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.44.1/opentelemetry-sdk-logs-1.44.1.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-os/4.27.0/selenium-os-4.27.0.jar:/Users/n100546/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.27.0/selenium-safari-driver-4.27.0.jar:/Users/n100546/.m2/repository/org/seleniumhq/selenium/selenium-support/4.27.0/selenium-support-4.27.0.jar:/Users/n100546/.m2/repository/io/qameta/allure/allure-java-commons/2.29.0/allure-java-commons-2.29.0.jar:/Users/n100546/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/n100546/.m2/repository/io/qameta/allure/allure-model/2.29.0/allure-model-2.29.0.jar:/Users/n100546/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/n100546/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/n100546/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/n100546/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/n100546/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/n100546/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/n100546/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/n100546/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/n100546/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/n100546/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/n100546/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/n100546/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/n100546/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/n100546/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/n100546/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar
+02-09-2026 09:57:40.727 [java] [DEBUG] found java executable in java
+02-09-2026 09:57:40.728 [java] [DEBUG] running - java [-Dallure.results.directory=../allure-results -Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+02-09-2026 09:57:40.728 [java] [DEBUG] stdout/stderr is logged to logs/66449-java.out
+02-09-2026 09:57:40.822 [java] [DEBUG] multithreading is set to false
+02-09-2026 09:57:40.970 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+02-09-2026 09:57:41.021 [java] [ERROR] SLF4J(W): No SLF4J providers were found.
+02-09-2026 09:57:41.021 [java] [ERROR] SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+02-09-2026 09:57:41.021 [java] [ERROR] SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+02-09-2026 09:57:41.041 [java] [ERROR] WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+02-09-2026 09:57:41.041 [java] [ERROR] WARNING: sun.misc.Unsafe::allocateMemory has been called by io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$2 (file:/Users/n100546/.m2/repository/io/grpc/grpc-netty-shaded/1.76.0/grpc-netty-shaded-1.76.0.jar)
+02-09-2026 09:57:41.041 [java] [ERROR] WARNING: Please consider reporting this to the maintainers of class io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$2
+02-09-2026 09:57:41.041 [java] [ERROR] WARNING: sun.misc.Unsafe::allocateMemory will be removed in a future release
+02-09-2026 09:57:41.193 [java] [DEBUG] gauge-java took 370milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+02-09-2026 09:57:41.193 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 370
+02-09-2026 09:57:41.193 [java] [DEBUG] starting gRPC server...
+02-09-2026 09:57:41.278 [java] [DEBUG] started gRPC server on port 61677
+02-09-2026 09:57:41.278 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61677
+02-09-2026 09:57:41.278 [Gauge] [DEBUG] Successfully made the connection with runner with port: 61677
+02-09-2026 09:57:41.278 [Gauge] [DEBUG] Validation started.
+02-09-2026 09:57:42.016 [java] [DEBUG] Scanning packages for steps
+02-09-2026 09:57:42.021 [java] [DEBUG] Comparing 'com.sirket.qa.web.WebSteps.elementeYaz' and 'com.sirket.qa.web.WebSteps.elementeYaz'
+02-09-2026 09:57:42.021 [java] [DEBUG] Found {} textini {} elemente yaz in current project scope.
+02-09-2026 09:57:42.021 [java] [DEBUG] Comparing 'com.sirket.qa.web.WebSteps.elementeTikla' and 'com.sirket.qa.web.WebSteps.elementeTikla'
+02-09-2026 09:57:42.021 [java] [DEBUG] Found {} elementine tikla in current project scope.
+02-09-2026 09:57:42.021 [java] [DEBUG] Comparing 'com.sirket.qa.web.WebSteps.elementGorunmemeli' and 'com.sirket.qa.web.WebSteps.elementGorunmemeli'
+02-09-2026 09:57:42.022 [java] [DEBUG] Found {} elementi gorunmemeli in current project scope.
+02-09-2026 09:57:42.022 [java] [DEBUG] Comparing 'com.sirket.qa.web.WebSteps.textGorunuyorMu' and 'com.sirket.qa.web.WebSteps.textGorunuyorMu'
+02-09-2026 09:57:42.022 [java] [DEBUG] Found {} texti {} elementinde gorunuyor mu kontrol et in current project scope.
+02-09-2026 09:57:42.022 [java] [DEBUG] Comparing 'com.sirket.qa.web.WebSteps.adreseGit' and 'com.sirket.qa.web.WebSteps.adreseGit'
+02-09-2026 09:57:42.022 [java] [DEBUG] Found {} adresine git in current project scope.
+02-09-2026 09:57:42.022 [java] [DEBUG] Comparing 'com.sirket.qa.web.WebSteps.elementiKontrolEt' and 'com.sirket.qa.web.WebSteps.elementiKontrolEt'
+02-09-2026 09:57:42.022 [java] [DEBUG] Found {} elementini kontrol et in current project scope.
+02-09-2026 09:57:42.022 [java] [DEBUG] Scanning packages for hooks
+02-09-2026 09:57:42.025 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+02-09-2026 09:57:42.026 [java] [DEBUG] 	{} elementini kontrol et : public void elementiKontrolEt(String ad)
+02-09-2026 09:57:42.026 [java] [DEBUG] 	{} adresine git : public void adreseGit(String yol)
+02-09-2026 09:57:42.026 [java] [DEBUG] 	{} elementine tikla : public void elementeTikla(String ad)
+02-09-2026 09:57:42.026 [java] [DEBUG] 	{} elementi gorunmemeli : public void elementGorunmemeli(String ad)
+02-09-2026 09:57:42.026 [java] [DEBUG] 	{} textini {} elemente yaz : public void elementeYaz(String metin, String ad)
+02-09-2026 09:57:42.026 [java] [DEBUG] 	{} texti {} elementinde gorunuyor mu kontrol et : public void textGorunuyorMu(String metin, String ad)
+02-09-2026 09:57:42.372 [Gauge] [DEBUG] Validation completed.
+02-09-2026 09:57:42.372 [Gauge] [DEBUG] Run started
+02-09-2026 09:57:42.373 [Gauge] [DEBUG] Starting Html Report plugin
+02-09-2026 09:57:42.419 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+02-09-2026 09:57:42.419 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 61680
+02-09-2026 09:57:42.419 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 61680
+02-09-2026 09:57:42.419 [Gauge] [DEBUG] Initialising suite data store.
+02-09-2026 09:57:42.439 [Gauge] [INFO] # DemoQA Text Box
+02-09-2026 09:57:42.444 [Gauge] [INFO] ## TST_TEXTBOX_0001 Gecerli bilgilerle form gonderilir
+02-09-2026 09:57:44.556 [java] [ERROR] Eyl 02, 2026 9:57:44 ÖÖ org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+02-09-2026 09:57:44.556 [java] [ERROR] WARNING: Unable to find CDP implementation matching 152
+02-09-2026 09:57:44.556 [java] [ERROR] Eyl 02, 2026 9:57:44 ÖÖ org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+02-09-2026 09:57:44.556 [java] [ERROR] WARNING: Unable to find version of CDP to use for 152.0.7977.65. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+02-09-2026 09:57:44.631 [Gauge] [DEBUG] * Text Box sayfasi acilir
+02-09-2026 09:57:44.631 [Gauge] [DEBUG] * "/text-box" adresine git
+02-09-2026 09:57:44.644 [java] [DEBUG] Executing '{} adresine git' using 'class com.sirket.qa.web.WebSteps.adreseGit
+02-09-2026 09:57:45.347 [Gauge] [DEBUG] * "adSoyadInput" elementini kontrol et
+
+02-09-2026 09:57:45.349 [java] [DEBUG] Executing '{} elementini kontrol et' using 'class com.sirket.qa.web.WebSteps.elementiKontrolEt
+02-09-2026 09:57:45.399 [Gauge] [DEBUG] * Formu "Test Kullanici" ve "test.kullanici@ornek.com" ile doldur
+02-09-2026 09:57:45.399 [Gauge] [DEBUG] * "Test Kullanici" textini "adSoyadInput" elemente yaz
+02-09-2026 09:57:45.401 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:57:45.523 [Gauge] [DEBUG] * "test.kullanici@ornek.com" textini "epostaInput" elemente yaz
+02-09-2026 09:57:45.524 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:57:45.590 [Gauge] [DEBUG] * "Istanbul Mah. Ornek Sok. No 1" textini "mevcutAdresInput" elemente yaz
+02-09-2026 09:57:45.592 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:57:45.655 [Gauge] [DEBUG] * "Ankara Mah. Ornek Cad. No 2" textini "kaliciAdresInput" elemente yaz
+
+02-09-2026 09:57:45.657 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:57:45.696 [Gauge] [DEBUG] * Formu gonder
+02-09-2026 09:57:45.696 [Gauge] [DEBUG] * "gonderButon" elementine tikla
+02-09-2026 09:57:45.697 [java] [DEBUG] Executing '{} elementine tikla' using 'class com.sirket.qa.web.WebSteps.elementeTikla
+02-09-2026 09:57:45.738 [Gauge] [DEBUG] * "sonucAlani" elementini kontrol et
+02-09-2026 09:57:45.740 [java] [DEBUG] Executing '{} elementini kontrol et' using 'class com.sirket.qa.web.WebSteps.elementiKontrolEt
+02-09-2026 09:57:45.754 [Gauge] [DEBUG] * "Test Kullanici" texti "sonucAd" elementinde gorunuyor mu kontrol et
+
+02-09-2026 09:57:45.756 [java] [DEBUG] Executing '{} texti {} elementinde gorunuyor mu kontrol et' using 'class com.sirket.qa.web.WebSteps.textGorunuyorMu
+02-09-2026 09:57:45.989 [Gauge] [INFO] ## TST_TEXTBOX_0002 Gecersiz e-posta ile form gonderilmez
+02-09-2026 09:57:46.621 [java] [ERROR] Eyl 02, 2026 9:57:46 ÖÖ org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+02-09-2026 09:57:46.622 [java] [ERROR] WARNING: Unable to find CDP implementation matching 152
+02-09-2026 09:57:46.622 [java] [ERROR] Eyl 02, 2026 9:57:46 ÖÖ org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+02-09-2026 09:57:46.622 [java] [ERROR] WARNING: Unable to find version of CDP to use for 152.0.7977.65. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+02-09-2026 09:57:46.635 [Gauge] [DEBUG] * Text Box sayfasi acilir
+02-09-2026 09:57:46.636 [Gauge] [DEBUG] * "/text-box" adresine git
+02-09-2026 09:57:46.647 [java] [DEBUG] Executing '{} adresine git' using 'class com.sirket.qa.web.WebSteps.adreseGit
+02-09-2026 09:57:47.322 [Gauge] [DEBUG] * "adSoyadInput" elementini kontrol et
+
+02-09-2026 09:57:47.324 [java] [DEBUG] Executing '{} elementini kontrol et' using 'class com.sirket.qa.web.WebSteps.elementiKontrolEt
+02-09-2026 09:57:47.341 [Gauge] [DEBUG] * Formu "Test Kullanici" ve "gecersiz-eposta" ile doldur
+02-09-2026 09:57:47.341 [Gauge] [DEBUG] * "Test Kullanici" textini "adSoyadInput" elemente yaz
+02-09-2026 09:57:47.342 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:57:47.440 [Gauge] [DEBUG] * "gecersiz-eposta" textini "epostaInput" elemente yaz
+02-09-2026 09:57:47.442 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:57:47.479 [Gauge] [DEBUG] * "Istanbul Mah. Ornek Sok. No 1" textini "mevcutAdresInput" elemente yaz
+02-09-2026 09:57:47.481 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:57:47.517 [Gauge] [DEBUG] * "Ankara Mah. Ornek Cad. No 2" textini "kaliciAdresInput" elemente yaz
+
+02-09-2026 09:57:47.519 [java] [DEBUG] Executing '{} textini {} elemente yaz' using 'class com.sirket.qa.web.WebSteps.elementeYaz
+02-09-2026 09:57:47.569 [Gauge] [DEBUG] * Formu gonder
+02-09-2026 09:57:47.569 [Gauge] [DEBUG] * "gonderButon" elementine tikla
+02-09-2026 09:57:47.570 [java] [DEBUG] Executing '{} elementine tikla' using 'class com.sirket.qa.web.WebSteps.elementeTikla
+02-09-2026 09:57:47.627 [Gauge] [DEBUG] * "sonucAlani" elementi gorunmemeli
+02-09-2026 09:57:47.629 [java] [DEBUG] Executing '{} elementi gorunmemeli' using 'class com.sirket.qa.web.WebSteps.elementGorunmemeli
+02-09-2026 09:57:47.806 [html-report] [DEBUG] Transformed SuiteResult to report structure
+02-09-2026 09:57:47.817 [html-report] [INFO] Successfully generated html-report to => /Users/n100546/IdeaProjects/test-suite/qa-tests/reports/html-report/index.html
+02-09-2026 09:57:47.817 [html-report] [DEBUG] Done generating HTML report using theme from /Users/n100546/.gauge/plugins/html-report/4.4.6/themes/default
+02-09-2026 09:57:47.817 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+02-09-2026 09:57:47.918 [Gauge] [DEBUG] Runner with PID:66470 has exited
+02-09-2026 09:57:47.920 [java] [DEBUG] Killing Java runner...
+02-09-2026 09:57:47.920 [java] [DEBUG] Stopping execution pool...
+02-09-2026 09:57:47.921 [java] [DEBUG] Shutting down grpc server...
+02-09-2026 09:57:47.923 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+02-09-2026 09:57:47.923 [Gauge] [INFO] Scenarios:	2 executed	2 passed	0 failed	0 skipped
+02-09-2026 09:57:47.923 [Gauge] [INFO] 
+Total time taken: 5.433s
