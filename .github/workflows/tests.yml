@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+
 jobs:
   api:
     runs-on: ubuntu-latest
@@ -14,8 +15,13 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           cache: maven
-      - name: API testlerini kos
-        run: mvn -B clean test -pl api-tests
+      - name: Gauge kur
+        run: |
+          npm install -g @getgauge/cli
+          gauge install java
+          gauge install html-report
+      - name: API senaryolarini kos
+        run: mvn -B clean test-compile -pl qa-tests && mvn -B gauge:execute -pl qa-tests -DspecsDir=specs -Dtags=api
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -31,10 +37,13 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           cache: maven
-      - name: Playwright tarayicilarini kur
-        run: mvn -B test-compile exec:java -pl web-tests -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps chromium" -D exec.classpathScope=test
-      - name: Web testlerini kos
-        run: mvn -B clean test -pl web-tests
+      - name: Gauge kur
+        run: |
+          npm install -g @getgauge/cli
+          gauge install java
+          gauge install html-report
+      - name: Web senaryolarini kos
+        run: mvn -B clean test-compile -pl qa-tests && mvn -B gauge:execute -pl qa-tests -DspecsDir=specs -Dtags=web
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -64,7 +73,6 @@ jobs:
           BASE="https://egemen13.github.io/test-suite/history"
           for f in history.json history-trend.json duration-trend.json retry-trend.json categories-trend.json; do
             curl -sf -o "allure-results/history/$f" "$BASE/$f"
-            echo "$f -> exit $?"
           done
           exit 0
       - name: Allure raporu uret
