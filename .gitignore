@@ -47,3 +47,11 @@ allure-report/
 qa-tests/reports/
 qa-tests/logs/
 .gauge/
+
+# Test ciktilari - asla commit edilmez
+**/.gauge/
+**/reports/
+**/logs/
+allure-results/
+allure-report/
+**/screenshots/
