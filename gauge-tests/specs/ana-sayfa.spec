@@ -8,4 +8,4 @@ Playwright sitesinin temel davranislari.
 
 ## Dokumantasyon acilir
 * "/docs/intro" adresine git
-* URL "kesinlikle-yok" icermeli
+* URL "docs" icermeli
