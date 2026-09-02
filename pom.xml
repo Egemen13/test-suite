@@ -10,9 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>api-tests</module>
-        <module>web-tests</module>
-        <module>gauge-tests</module>
+        <module>qa-tests</module>
     </modules>
 
     <properties>

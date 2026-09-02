@@ -1,0 +1,79 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+{"logLevel":"debug","message":"gauge-java took 396milliseconds to load and scan. This should be less than \u0027runner_connection_timeout\u0027 config value."}
+{"logLevel":"debug","message":"run \u0027gauge config runner_connection_timeout\u0027 and verify that it is \u003c 396"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 58754"}
+{"logLevel":"info","message":"Listening on port:58754"}
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.google.protobuf.UnsafeUtil (file:/Users/n100546/.m2/repository/com/google/protobuf/protobuf-java/4.35.1/protobuf-java-4.35.1.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.protobuf.UnsafeUtil
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing \u0027com.sirket.qa.gauge.AnaSayfaSteps.metneTikla\u0027 and \u0027com.sirket.qa.gauge.AnaSayfaSteps.metneTikla\u0027"}
+{"logLevel":"debug","message":"Found {} metnine tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027com.sirket.qa.gauge.AnaSayfaSteps.alanaYaz\u0027 and \u0027com.sirket.qa.gauge.AnaSayfaSteps.alanaYaz\u0027"}
+{"logLevel":"debug","message":"Found {} alanina {} yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027com.sirket.qa.gauge.AnaSayfaSteps.adreseGit\u0027 and \u0027com.sirket.qa.gauge.AnaSayfaSteps.adreseGit\u0027"}
+{"logLevel":"debug","message":"Found {} adresine git in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027com.sirket.qa.gauge.AnaSayfaSteps.anaSayfayaGit\u0027 and \u0027com.sirket.qa.gauge.AnaSayfaSteps.anaSayfayaGit\u0027"}
+{"logLevel":"debug","message":"Found Ana sayfaya git in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027com.sirket.qa.gauge.AnaSayfaSteps.sonucAlanindaGorunmeli\u0027 and \u0027com.sirket.qa.gauge.AnaSayfaSteps.sonucAlanindaGorunmeli\u0027"}
+{"logLevel":"debug","message":"Found Sonuc alaninda {} gorunmeli in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027com.sirket.qa.gauge.AnaSayfaSteps.alanGecersizOlmali\u0027 and \u0027com.sirket.qa.gauge.AnaSayfaSteps.alanGecersizOlmali\u0027"}
+{"logLevel":"debug","message":"Found {} alani gecersiz olmali in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027com.sirket.qa.gauge.AnaSayfaSteps.urlIcermeli\u0027 and \u0027com.sirket.qa.gauge.AnaSayfaSteps.urlIcermeli\u0027"}
+{"logLevel":"debug","message":"Found URL {} icermeli in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027com.sirket.qa.gauge.AnaSayfaSteps.formuGonder\u0027 and \u0027com.sirket.qa.gauge.AnaSayfaSteps.formuGonder\u0027"}
+{"logLevel":"debug","message":"Found Formu gonder in current project scope."}
+{"logLevel":"debug","message":"Comparing \u0027com.sirket.qa.gauge.AnaSayfaSteps.baslikIcermeli\u0027 and \u0027com.sirket.qa.gauge.AnaSayfaSteps.baslikIcermeli\u0027"}
+{"logLevel":"debug","message":"Found Baslik {} icermeli in current project scope."}
+{"logLevel":"debug","message":"Loading Sayfada {} gorunmelivia reflected sources."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tBaslik {} icermeli : public void baslikIcermeli(String metin)"}
+{"logLevel":"debug","message":"\tSonuc alaninda {} gorunmeli : public void sonucAlanindaGorunmeli(String metin)"}
+{"logLevel":"debug","message":"\t{} alanina {} yaz : public void alanaYaz(String alan, String deger)"}
+{"logLevel":"debug","message":"\tFormu gonder : public void formuGonder()"}
+{"logLevel":"debug","message":"\t{} metnine tikla : public void metneTikla(String metin)"}
+{"logLevel":"debug","message":"\t{} adresine git : public void adreseGit(String yol)"}
+{"logLevel":"debug","message":"\tSayfada {} metni gorunmeli : public void sayfadaGorunmeli(String metin)"}
+{"logLevel":"debug","message":"\t{} alani gecersiz olmali : public void alanGecersizOlmali(String alan)"}
+{"logLevel":"debug","message":"\tURL {} icermeli : public void urlIcermeli(String metin)"}
+{"logLevel":"debug","message":"\tSayfada {} gorunmeli : null"}
+{"logLevel":"debug","message":"\tAna sayfaya git : public void anaSayfayaGit()"}
+{"logLevel":"debug","message":"Executing \u0027Ana sayfaya git\u0027 using \u0027class com.sirket.qa.gauge.AnaSayfaSteps.anaSayfayaGit"}
+{"logLevel":"fatal","message":"No step definition found. Try compiling the source before execution."}
+node:internal/modules/cjs/loader:1249
+  const err = new Error(message);
+              ^
+
+Error: Cannot find module './../../package.json'
+Require stack:
+- /private/var/folders/5n/t92pvbvd7hsf3j6qfwgvsmj80000gn/T/playwright-java-11035394762054381804/package/lib/utils/userAgent.js
+- /private/var/folders/5n/t92pvbvd7hsf3j6qfwgvsmj80000gn/T/playwright-java-11035394762054381804/package/lib/utils/index.js
+- /private/var/folders/5n/t92pvbvd7hsf3j6qfwgvsmj80000gn/T/playwright-java-11035394762054381804/package/lib/cli/programWithTestStub.js
+- /private/var/folders/5n/t92pvbvd7hsf3j6qfwgvsmj80000gn/T/playwright-java-11035394762054381804/package/cli.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at getPlaywrightVersion (/private/var/folders/5n/t92pvbvd7hsf3j6qfwgvsmj80000gn/T/playwright-java-11035394762054381804/package/lib/utils/userAgent.js:91:54)
+    at HarTracer.stop (/private/var/folders/5n/t92pvbvd7hsf3j6qfwgvsmj80000gn/T/playwright-java-11035394762054381804/package/lib/server/har/harTracer.js:417:50)
+    at Tracing.abort (/private/var/folders/5n/t92pvbvd7hsf3j6qfwgvsmj80000gn/T/playwright-java-11035394762054381804/package/lib/server/trace/recorder/tracing.js:251:21)
+    at CRBrowserContext._didCloseInternal (/private/var/folders/5n/t92pvbvd7hsf3j6qfwgvsmj80000gn/T/playwright-java-11035394762054381804/package/lib/server/browserContext.js:199:18) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/private/var/folders/5n/t92pvbvd7hsf3j6qfwgvsmj80000gn/T/playwright-java-11035394762054381804/package/lib/utils/userAgent.js',
+    '/private/var/folders/5n/t92pvbvd7hsf3j6qfwgvsmj80000gn/T/playwright-java-11035394762054381804/package/lib/utils/index.js',
+    '/private/var/folders/5n/t92pvbvd7hsf3j6qfwgvsmj80000gn/T/playwright-java-11035394762054381804/package/lib/cli/programWithTestStub.js',
+    '/private/var/folders/5n/t92pvbvd7hsf3j6qfwgvsmj80000gn/T/playwright-java-11035394762054381804/package/cli.js'
+  ]
+}
+
+Node.js v22.11.0
