@@ -93,6 +93,11 @@ public class WebSteps {
                 .stream().anyMatch(WebElement::isDisplayed)).isFalse();
     }
 
+    @Step("<ad> elementi bulunmamali")
+    public void hicBulunmamali(String ad) {
+        assertThat(Tarayici.surucu().findElements(locator(ad))).isEmpty();
+    }
+
     @Step("<ad> elementine <deger> degeri ile tikla")
     public void parametreliTikla(String ad, String deger) {
         Tarayici.bekle().until(

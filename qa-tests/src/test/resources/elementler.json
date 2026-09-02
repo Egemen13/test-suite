@@ -19,9 +19,9 @@
     "departmanInput": "css=#department",
     "kaydetButon": "css=#submit",
     "aramaKutusu": "css=#searchBox",
-    "veriYokMesaji": "css=.rt-noData",
-    "kayitSatiri": "xpath=//div[@class='rt-tr-group'][.//div[text()='%s']]",
-    "satirDuzenleButon": "xpath=//div[@class='rt-tr-group'][.//div[text()='%s']]//span[starts-with(@id,'edit-record')]",
-    "satirSilButon": "xpath=//div[@class='rt-tr-group'][.//div[text()='%s']]//span[starts-with(@id,'delete-record')]"
+    "tabloSatirlari": "css=.web-tables-wrapper tbody tr",
+    "kayitSatiri": "xpath=//div[contains(@class,'web-tables-wrapper')]//tbody/tr[td[normalize-space(text())='%s']]",
+    "satirDuzenleButon": "xpath=//div[contains(@class,'web-tables-wrapper')]//tbody/tr[td[normalize-space(text())='%s']]//span[starts-with(@id,'edit-record')]",
+    "satirSilButon": "xpath=//div[contains(@class,'web-tables-wrapper')]//tbody/tr[td[normalize-space(text())='%s']]//span[starts-with(@id,'delete-record')]"
   }
 }

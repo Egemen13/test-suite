@@ -1,0 +1,21 @@
+# Web Tables sayfasi acilir
+* "/webtables" adresine git
+* "yeniKayitButon" elementini kontrol et
+
+# Yeni kayit formu acilir
+* "yeniKayitButon" elementine tikla
+* "adInput" elementini kontrol et
+
+# Kayit bilgileri <ad> <soyad> <eposta> <yas> <maas> <departman> girilir
+* <ad> textini "adInput" elemente yaz
+* <soyad> textini "soyadInput" elemente yaz
+* <eposta> textini "kayitEpostaInput" elemente yaz
+* <yas> textini "yasInput" elemente yaz
+* <maas> textini "maasInput" elemente yaz
+* <departman> textini "departmanInput" elemente yaz
+
+# Kayit formu gonderilir
+* "kaydetButon" elementine tikla
+
+# <deger> icin arama yapilir
+* <deger> textini "aramaKutusu" elemente yaz
