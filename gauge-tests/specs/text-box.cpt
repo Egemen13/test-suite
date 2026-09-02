@@ -1,0 +1,12 @@
+# Text Box sayfasi acilir
+* "/text-box" adresine git
+* "adSoyadInput" elementini kontrol et
+
+# Formu <ad> ve <eposta> ile doldur
+* <ad> textini "adSoyadInput" elemente yaz
+* <eposta> textini "epostaInput" elemente yaz
+* "Istanbul Mah. Ornek Sok. No 1" textini "mevcutAdresInput" elemente yaz
+* "Ankara Mah. Ornek Cad. No 2" textini "kaliciAdresInput" elemente yaz
+
+# Formu gonder
+* "gonderButon" elementine tikla

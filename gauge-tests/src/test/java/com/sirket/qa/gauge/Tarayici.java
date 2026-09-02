@@ -20,7 +20,7 @@ import java.util.UUID;
 public class Tarayici {
 
     public static final String BASE_URL =
-            System.getenv().getOrDefault("BASE_URL", "https://playwright.dev");
+            System.getenv().getOrDefault("BASE_URL", "https://demoqa.com");
 
     private static WebDriver driver;
     private static WebDriverWait bekleyici;
